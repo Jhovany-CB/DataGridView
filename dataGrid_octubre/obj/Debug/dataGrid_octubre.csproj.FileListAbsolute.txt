@@ -1,0 +1,11 @@
+C:\Users\LS 25\Desktop\dataGrid_octubre\bin\Debug\dataGrid_octubre.exe.config
+C:\Users\LS 25\Desktop\dataGrid_octubre\bin\Debug\dataGrid_octubre.exe
+C:\Users\LS 25\Desktop\dataGrid_octubre\bin\Debug\dataGrid_octubre.pdb
+C:\Users\LS 25\Desktop\dataGrid_octubre\obj\Debug\dataGrid_octubre.csproj.AssemblyReference.cache
+C:\Users\LS 25\Desktop\dataGrid_octubre\obj\Debug\dataGrid_octubre.Form1.resources
+C:\Users\LS 25\Desktop\dataGrid_octubre\obj\Debug\dataGrid_octubre.Properties.Resources.resources
+C:\Users\LS 25\Desktop\dataGrid_octubre\obj\Debug\dataGrid_octubre.csproj.GenerateResource.cache
+C:\Users\LS 25\Desktop\dataGrid_octubre\obj\Debug\dataGrid_octubre.csproj.CoreCompileInputs.cache
+C:\Users\LS 25\Desktop\dataGrid_octubre\obj\Debug\dataGrid_octubre.exe
+C:\Users\LS 25\Desktop\dataGrid_octubre\obj\Debug\dataGrid_octubre.pdb
+C:\Users\LS 25\Desktop\dataGrid_octubre\obj\Debug\dataGrid_octubre.exe.config
