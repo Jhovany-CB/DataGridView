@@ -80,5 +80,12 @@ namespace dataGrid_octubre
                 }
             }
         }
+
+        private void btnColor_Click(object sender, EventArgs e)
+        {
+            dg1.BackgroundColor = Color.Red;
+            dg1.ForeColor= Color.Green;
+            dg1[2,2].Style.BackColor = Color.Orange;
+        }
     }
 }

@@ -44,6 +44,7 @@
             this.btnCoordenadas = new System.Windows.Forms.Button();
             this.btnCantidadFilasColumnas = new System.Windows.Forms.Button();
             this.btnLlenarMatriz = new System.Windows.Forms.Button();
+            this.btnColor = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dg1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -147,7 +148,7 @@
             // 
             // btnValorCeldaSeleccionada
             // 
-            this.btnValorCeldaSeleccionada.Location = new System.Drawing.Point(863, 196);
+            this.btnValorCeldaSeleccionada.Location = new System.Drawing.Point(863, 141);
             this.btnValorCeldaSeleccionada.Name = "btnValorCeldaSeleccionada";
             this.btnValorCeldaSeleccionada.Size = new System.Drawing.Size(131, 50);
             this.btnValorCeldaSeleccionada.TabIndex = 10;
@@ -157,7 +158,7 @@
             // 
             // btnCoordenadas
             // 
-            this.btnCoordenadas.Location = new System.Drawing.Point(863, 266);
+            this.btnCoordenadas.Location = new System.Drawing.Point(863, 211);
             this.btnCoordenadas.Name = "btnCoordenadas";
             this.btnCoordenadas.Size = new System.Drawing.Size(131, 50);
             this.btnCoordenadas.TabIndex = 11;
@@ -167,7 +168,7 @@
             // 
             // btnCantidadFilasColumnas
             // 
-            this.btnCantidadFilasColumnas.Location = new System.Drawing.Point(863, 332);
+            this.btnCantidadFilasColumnas.Location = new System.Drawing.Point(863, 277);
             this.btnCantidadFilasColumnas.Name = "btnCantidadFilasColumnas";
             this.btnCantidadFilasColumnas.Size = new System.Drawing.Size(131, 50);
             this.btnCantidadFilasColumnas.TabIndex = 12;
@@ -177,7 +178,7 @@
             // 
             // btnLlenarMatriz
             // 
-            this.btnLlenarMatriz.Location = new System.Drawing.Point(863, 388);
+            this.btnLlenarMatriz.Location = new System.Drawing.Point(863, 333);
             this.btnLlenarMatriz.Name = "btnLlenarMatriz";
             this.btnLlenarMatriz.Size = new System.Drawing.Size(131, 50);
             this.btnLlenarMatriz.TabIndex = 13;
@@ -185,11 +186,22 @@
             this.btnLlenarMatriz.UseVisualStyleBackColor = true;
             this.btnLlenarMatriz.Click += new System.EventHandler(this.btnLlenarMatriz_Click);
             // 
+            // btnColor
+            // 
+            this.btnColor.Location = new System.Drawing.Point(863, 389);
+            this.btnColor.Name = "btnColor";
+            this.btnColor.Size = new System.Drawing.Size(131, 50);
+            this.btnColor.TabIndex = 14;
+            this.btnColor.Text = "Colores";
+            this.btnColor.UseVisualStyleBackColor = true;
+            this.btnColor.Click += new System.EventHandler(this.btnColor_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1016, 450);
+            this.Controls.Add(this.btnColor);
             this.Controls.Add(this.btnLlenarMatriz);
             this.Controls.Add(this.btnCantidadFilasColumnas);
             this.Controls.Add(this.btnCoordenadas);
@@ -228,6 +240,7 @@
         private System.Windows.Forms.Button btnCoordenadas;
         private System.Windows.Forms.Button btnCantidadFilasColumnas;
         private System.Windows.Forms.Button btnLlenarMatriz;
+        private System.Windows.Forms.Button btnColor;
     }
 }
 
